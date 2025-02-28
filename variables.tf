@@ -19,7 +19,8 @@ variable "batch_size" {
 }
 
 variable "topics" {
-  type        = list(string)
+  type        = set(string)
+  default     = []
   description = "List of Kafka topics that will trigger the Lambda function."
 }
 

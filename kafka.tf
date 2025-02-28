@@ -4,5 +4,6 @@ data "ns_connection" "kafka" {
 }
 
 locals {
-  kafka_cluster_arn = data.ns_connection.kafka.outputs.cluster_arn
+  kafka_cluster_name = data.ns_connection.kafka.outputs.cluster_name
+  kafka_cluster_arn  = data.ns_connection.kafka.outputs.cluster_arn
 }
