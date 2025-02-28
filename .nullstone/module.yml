@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-kafka-lambda-trigger
+friendly_name: Kafka Trigger for Lambda
+description: Triggers a Lambda application from a Kafka topic
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: lambda
+subplatform: ""
+type: ""
+appCategories:
+    - serverless
+is_public: true
